@@ -10,9 +10,18 @@
     margin-left: 30px;
 }
 
+.camera {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
 
 
-
+.attribute {
+    position: fixed;
+    bottom: 0;
+}
 
 
 

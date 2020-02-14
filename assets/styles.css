@@ -1,4 +1,12 @@
 
+.bodyColor {
+    background-color: #fbf8f5;
+}
+
+.title {
+    font-family: 'Rajdhani', sans-serif;
+}
+
 .bio-header {
     color: #2d3961;
     font-family: 'Montserrat', sans-serif;
@@ -23,6 +31,15 @@
     bottom: 0;
 }
 
+.margin {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.btn-color {
+    background-color: #2d3961;
+    color: #fff;
+}
 
 
 
@@ -30,6 +47,7 @@
 
 
 
-
-@media screen and (max-width: 991px) {}
+@media screen and (max-width: 575px) {
+    
+}
     

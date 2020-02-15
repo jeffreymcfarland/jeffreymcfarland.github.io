@@ -9,7 +9,6 @@
 
 .bio-header {
     color: #2d3961;
-    font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     text-align: center;
     }
@@ -18,23 +17,6 @@
     margin-left: 30px;
 }
 
-.camera {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-}
-
-
-.attribute {
-    position: fixed;
-    bottom: 0;
-}
-
-.margin {
-    margin-bottom: 40px;
-    margin-top: 30px;
-}
 
 .btn-color {
     background-color: #2d3961;
@@ -42,19 +24,17 @@
 }
 
 .imgJeffrey {
-    width: 66%;
-    height: 100%;
+    width: 330px;
+    height: 500px;
     background-color: #fbf8f5;
 }
 
 .aboutMe {
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .baseHeader {
     color: #2d3961;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 
@@ -64,22 +44,14 @@ img.mr-3 {
     margin-left: 10px;
 }
 
-h5 {
-    color: #2d3961;
+h5, .bio-header, .aboutMe, .baseHeader {
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
 
 
 .footer {
     position: fixed;
     bottom: 0px;
+    font-size: xx-small;
 }
 
-
-@media screen and (max-width: 575px) {
-
-}
-    

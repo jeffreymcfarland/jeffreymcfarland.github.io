@@ -64,9 +64,19 @@ img.mr-3 {
     margin-left: 10px;
 }
 
+h5 {
+    color: #2d3961;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
+
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+}
 
 
 @media screen and (max-width: 575px) {

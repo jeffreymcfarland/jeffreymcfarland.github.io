@@ -1,0 +1,33 @@
+.centered {
+    position: absolute;
+    top: 44%;
+    left: 52%;
+    transform: translate(-56%, -48%);
+  }
+
+  .icons{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+
+  .icon-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .icons:hover{
+    width: 43px;
+    height: 43px;
+    margin-bottom: -13px;
+    margin-left: -13px;
+  }
+
+  .ocean-img{
+      z-index: -1;
+      position: relative;
+  }
+
+

@@ -1,8 +1,19 @@
 .centered {
     position: absolute;
-    top: 44%;
+    top: 45%;
     left: 52%;
-    transform: translate(-56%, -48%);
+    transform: translate(-55%, -48%);
+    color: #ffffff;
+    text-shadow: 1px 1px 7px #000000;
+    transition: color 1s ease;
+  }
+  .centered:hover{
+    color: #bad8a2;
+    cursor: default;
+  }
+
+  .gotu{
+    font-family: 'Gotu', sans-serif;
   }
 
   .icons{

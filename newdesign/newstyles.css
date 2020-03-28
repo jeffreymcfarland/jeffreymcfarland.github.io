@@ -49,7 +49,7 @@
   }
   .centered:hover{
     color: #cca05a;
-    cursor: default;
+    cursor: pointer;
     font-size: 230%;
     transition: color 1.2s ease-in, font-size 2.5s ease-in;
   }

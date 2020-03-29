@@ -9,7 +9,7 @@
     height: 30px;
     margin-right: 10px;
     padding: 5px;
-    transition: ease-out 1s;
+    transition: ease-out .5s;
   }
 
   .icons-github{
@@ -27,7 +27,7 @@
     height: 43px;
     margin-bottom: -13px;
     margin-left: -13px;
-    transition: ease 1s;
+    transition: ease .5s;
   }
 
   .ocean-img{
@@ -106,6 +106,15 @@
   .jeff-img{
     max-width: 100%;
     height: auto;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #cca05a;
   }
+
+  .aboutMe{
+    color: #cca05a;
+    font-size: 50px;
+  }
+
 
 

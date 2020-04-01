@@ -38,6 +38,17 @@ $(document).ready(function() {
             };
         });
     });
+
+    // If element is scrolled into view, bounce animation. If not in view, stop bounce.
+    $(window).scroll(function() {
+        $(".aboutMe-div").each(function() {
+            if (isScrolledIntoView(this) === true) {
+                $(this).addClass("pulse delay-2s infinite");
+            } else {
+                $(this).removeClass("pulse delay-2s infinite");
+            };
+        });
+    });
 });
 
   

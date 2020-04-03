@@ -1,0 +1,189 @@
+
+ /* Font style */
+.gotu{
+    font-family: 'Gotu', sans-serif;
+}
+
+ /* Styles for links on top of page */
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 5px;
+    transition: ease-out .5s;
+}
+
+.icons-github{
+    padding: 3px;
+}
+
+.icon-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.icons:hover{
+    width: 43px;
+    height: 43px;
+    margin-bottom: -13px;
+    margin-left: -13px;
+    transition: ease .5s;
+}
+
+.ocean-img{
+      z-index: -1;
+      position: relative;
+}
+
+  /* Styles for hover transition color and other styles on "jeffrey mcfarland" */
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    transform: translate(-55%, -48%);
+    color: #ffffff;
+    text-shadow: 1px 1px 7px #000000;
+    transition: color 2s ease-out, font-size 3s ease-out;
+    border: 2px black;
+}
+
+.centered:hover{
+    color: #cca05a;
+    cursor: pointer;
+    font-size: 230%;
+    transition: color 1.2s ease-in, font-size 2.5s ease-in;
+}
+
+  /* Styles for hover transition border on "jeffrey mcfarland" */
+.draw{
+    padding: 1em 2em;
+}
+
+.draw::before, .draw::after {
+    content: '';
+    position: absolute;
+}
+
+.draw {
+    transition: color 0.25s;
+}
+  
+.draw::before, .draw::after {
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.draw::before {
+    top: 0;
+    left: 0;
+}
+  
+.draw::after {
+    bottom: 0;
+    right: 0;
+}
+  
+.draw:hover {
+    color: #cca05a;
+}
+
+  .draw:hover::before, .draw:hover::after {
+    width: 100%;
+    height: 100%;
+}
+  
+.draw:hover::before {
+    border-top-color: #cca05a;
+    border-right-color: #cca05a;
+    transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+
+.draw:hover::after {
+    border-bottom-color: #cca05a;
+    border-left-color: #cca05a;
+    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
+ /* Styles for image of jeffrey */
+.div-img{
+    width: 297px;
+    height: 450px;
+}
+
+.jeff-img{
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #cca05a;
+}
+
+ /* Styles for about me section */
+.aboutMe{
+    color: #cca05a;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.attachContent, .section-title{
+    color: #cca05a;
+}
+
+ /* Hide about me and show about me info */
+
+ .hide{
+    visibility: hidden;
+ }
+
+  /* Styles for Project Links */
+.projects{
+    background-color: #b9c3ca;
+    background-image: linear-gradient(#ffffff, #b9c3ca,  #b9c3ca, #ffffff);
+}
+
+.project-img{
+    max-width: 80%;
+    height: auto;
+}
+
+[class*=" imghvr-"] figcaption,
+[class^=imghvr-] figcaption,
+[class*=" imghvr-"],
+[class^=imghvr-],
+[class*=" imghvr-shutter-in-"]:after,
+[class*=" imghvr-shutter-in-"]:before,
+[class^=imghvr-shutter-in-]:after,
+[class^=imghvr-shutter-in-]:before {
+    background-color: #528ebc;
+}
+
+figcaption {
+    font-size: 1.25vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+figcaption h4 {
+    font-weight: bold;
+}
+
+.links > a {
+    font-weight: initial;
+    line-height: initial;
+    position: static;
+    color: #FFF;
+}
+
+.skills{
+    width: 50px;
+    height: 50px;
+}
+
+.resume{
+    max-width: 100%;
+    height:auto;
+}

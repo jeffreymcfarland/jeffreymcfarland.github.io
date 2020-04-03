@@ -51,4 +51,24 @@ $(document).ready(function() {
     });
 });
 
+
+// About Me click event
+
+$(".aboutMe").on("click", function() {
+    $(this).addClass("hide");
+    
+    var newDiv = $("<div>").addClass("newDiv animated fadeIn slower");
+
+    var h5 = $("<h5>").text("Jeffrey is a full-stack web developer student living in Nashville, TN.");
+    var h6 = $("<h6>").text("He graduated in 2016 with a BA in Humanities from Florida State University. He loves hanging with his wife, Regan, and goldendoodle, Oliver.");
+    var otherh6 = $("<h6>").text("Take a look at some of his recent projects below, and feel free to reach out with the links at the top of the page.");
+    var br1 = $("<br>");
+    var br2 = $("<br>");
+    var br3 = $("<br>");
+    var hr = $("<hr>");
+
+    newDiv.append(h5, br1, hr, br2, h6, br3, otherh6);
+    $(".attachContent").append(newDiv);
+});
+
   

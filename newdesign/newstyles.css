@@ -121,8 +121,18 @@
 .aboutMe{
     color: #cca05a;
     font-size: 50px;
+    cursor: pointer;
 }
 
+.attachContent{
+    color: #cca05a;
+}
+
+ /* Hide about me and show about me info */
+
+ .hide{
+    visibility: hidden;
+ }
 
   /* Styles for Project Links */
 .projects{

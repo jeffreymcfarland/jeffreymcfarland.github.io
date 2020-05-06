@@ -148,6 +148,12 @@
     height: auto;
 }
 
+.img-sizing{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 [class*=" imghvr-"] figcaption,
 [class^=imghvr-] figcaption,
 [class*=" imghvr-"],

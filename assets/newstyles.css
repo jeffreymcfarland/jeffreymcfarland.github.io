@@ -34,13 +34,15 @@
 .ocean-img{
       z-index: -1;
       position: relative;
+      width: 100%;
+      height: 100%;
 }
 
   /* Styles for hover transition color and other styles on "jeffrey mcfarland" */
 .centered {
     position: absolute;
     top: 35%;
-    left: 52%;
+    left: 53%;
     transform: translate(-55%, -48%);
     color: #ffffff;
     text-shadow: 2px 2px 2px #686868;

@@ -7,6 +7,9 @@ $("a[href*=\\#]").on("click", function(event){
 
 // Scroll into view animations
 $(document).ready(function() {
+
+    $('.tooltipped').tooltip();
+
     // Check if element is scrolled into view
     function isScrolledIntoView(elem) {
       var docViewTop = $(window).scrollTop();
@@ -71,6 +74,6 @@ $(".aboutMe").on("click", function() {
     $(".attachContent").append(newDiv);
 });
 
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});
+// $(document).ready(function(){
+//     $('[data-toggle="tooltip"]').tooltip();
+// });

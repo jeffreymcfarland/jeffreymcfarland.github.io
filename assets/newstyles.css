@@ -197,6 +197,7 @@ figcaption h4 {
 }
 
 /* Change style of background image based on mobile size */
+
 @media (max-width:425px) {
     .ocean-img{
         width: 100%;

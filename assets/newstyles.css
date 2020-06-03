@@ -5,6 +5,16 @@
 }
 
  /* Styles for links on top of page */
+.port-btn{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 .icons{
     width: 30px;
     height: 30px;

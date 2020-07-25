@@ -64,9 +64,9 @@ $(".aboutMe").on("click", function() {
     
     var newDiv = $("<div>").addClass("newDiv animated fadeIn slower");
 
-    var h5 = $("<h5>").text("Jeffrey is a full-stack web developer student living in Nashville, TN.");
-    var h6 = $("<h6>").text("He graduated in 2016 with a BA in Humanities from Florida State University. He loves hanging with his wife, Regan, and goldendoodle, Oliver.");
-    var otherh6 = $("<h6>").text("Take a look at some of his recent projects below, and feel free to reach out with the links at the top of the page.");
+    var h5 = $("<h5>").text("Jeffrey is a full-stack web developer living in the Nashville Metropolitan Area.");
+    var h6 = $("<h6>").text("He recently earned a certificate in full-stack development at Vanderbilt University, with an emphasis on the MERN stack. When not coding, he loves hanging with his wife, Regan, and goldendoodle, Oliver.");
+    var otherh6 = $("<h6>").text("Passionate about developing apps using creativity and persistence to help others solve their problems. Take a look at some of his recent projects below, and feel free to reach out with the links at the top of the page.");
     var br1 = $("<br>");
     var br2 = $("<br>");
     var br3 = $("<br>");

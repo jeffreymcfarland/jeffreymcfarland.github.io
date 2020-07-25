@@ -10,6 +10,8 @@ $(document).ready(function() {
 
     $('.tooltipped').tooltip();
 
+    $('.scrollspy').scrollSpy();
+
     // Check if element is scrolled into view
     function isScrolledIntoView(elem) {
       var docViewTop = $(window).scrollTop();
@@ -73,7 +75,3 @@ $(".aboutMe").on("click", function() {
     newDiv.append(h5, br1, hr, br2, h6, br3, otherh6);
     $(".attachContent").append(newDiv);
 });
-
-// $(document).ready(function(){
-//     $('[data-toggle="tooltip"]').tooltip();
-// });

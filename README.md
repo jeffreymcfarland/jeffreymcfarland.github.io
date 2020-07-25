@@ -13,6 +13,7 @@ Full Stack Web Developer in the Nashville Metropolitan Area.
 * JavaScript
 * HTML
 * CSS
+* JQuery
 * Bootstrap
 * Materialize
 * Animate.css

@@ -27,8 +27,6 @@ $(document).ready(function() {
         $(".jeff-img").each(function() {
             if (isScrolledIntoView(this) === true) {
             $(this).removeClass("fadeOutLeft").addClass("fadeInLeft");
-            } else {
-                $(this).removeClass("fadeInLeft").addClass("fadeOutLeft");
             };
         });
     });
@@ -59,7 +57,7 @@ $(document).ready(function() {
 
 // About Me click event
 
-$(".aboutMe").on("click", function() {
+$(".aboutMe").hover(function() {
     $(this).addClass("hide");
     
     var newDiv = $("<div>").addClass("newDiv animated fadeIn slower");
@@ -74,4 +72,6 @@ $(".aboutMe").on("click", function() {
 
     newDiv.append(h5, br1, hr, br2, h6, br3, otherh6);
     $(".attachContent").append(newDiv);
+}, function() {
+    return
 });

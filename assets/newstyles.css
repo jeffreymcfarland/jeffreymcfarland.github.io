@@ -26,6 +26,11 @@ body{
 	outline: inherit;
 }
 
+.port-btn:focus{
+    text-decoration: none;
+    background: none;
+}
+
 .icons{
     width: 30px;
     height: 30px;
@@ -130,8 +135,8 @@ body{
 .jeff-img{
     max-width: 100%;
     height: auto;
-    padding: 10px;
-    border: 2px solid;
+    /* padding: 10px; */
+    border: 1px solid;
     border-color: #cca05a;
 }
 
@@ -212,7 +217,8 @@ figcaption h4 {
 .contact{
     border-top: 1px solid black;
     height: 200px;
-    background-color: #3c4853;
+    background-color: #ceb58d;
+    color: #2a3138;
 }
 
 .contact-info{
